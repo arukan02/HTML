@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>BasicServlet</servlet-name>
+		<servlet-class>BasicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BasicServlet</servlet-name>
+		<url-pattern>/BasicServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IntermediateServlet</servlet-name>
+		<servlet-class>IntermediateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IntermediateServlet</servlet-name>
+		<url-pattern>/IntermediateServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
